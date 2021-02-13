@@ -32,6 +32,7 @@ def lotto_num():
 
 def pick_num():
     rand_10_pick = []
+    # the value in range is number of tickets bought in that day
     for j in range(100):
         rand_10_pick.append(lotto_num())
     #    print(f"Lucky rand picked list is {rand_10_pick}")
@@ -55,6 +56,7 @@ for i in range(1000):
     # while todays_pick != code_pick:
     #    code_pick = lotto_num()
     #    count += 1
+    # call find function to determine how long it has taken to win the lottery.
     Y1, W1, D1 = find(count)
 
     print(f'Hurray you have won in the iteration {count} after {Y1} years {W1} weeks and {D1} '
