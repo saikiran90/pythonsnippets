@@ -2,7 +2,7 @@
 from random import shuffle
 from random import randrange
 
-
+# Define the global variable
 DAYS_IN_WEEK = 7
 
 
@@ -25,9 +25,9 @@ def lotto_num():
     finalpick = []
     for itr in range(3):
         shuffle(numbers)
-       # finalpick.append(numbers.pop())
+        # finalpick.append(numbers.pop())
         finalpick.append(numbers[randrange(10)])
-    #finalpick.sort()
+    # finalpick.sort()
     return finalpick
 
 
