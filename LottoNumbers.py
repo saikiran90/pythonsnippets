@@ -1,3 +1,4 @@
+# This program is to determine how much money one has to spend before he wins money.
 from random import shuffle
 from random import randrange
 
@@ -18,7 +19,7 @@ def find(number_of_days):
 
 def lotto_num():
     """
-    This is a doc string for lotto num function
+    This is a doc string for lotto num function....
     """
     numbers = list(range(10))
     finalpick = []
